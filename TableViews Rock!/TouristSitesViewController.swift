@@ -1,5 +1,5 @@
 //
-//  FirstViewController.swift
+//  SecondViewController.swift
 //  TableViews Rock!
 //
 //  Created by Vinukonda,Sai Manikanta Durga Prasad on 2/19/19.
@@ -8,19 +8,23 @@
 
 import UIKit
 
-class FirstViewController: UIViewController,UITableViewDataSource,UITableViewDelegate {
+class TouristSitesViewController: UIViewController ,UITableViewDataSource,UITableViewDelegate{
     
-    var cities=["Edinburgh","London","Aberdeen","Oxford","Cambridge"]
+    
+    
+    var tourististsplaces = ["SydneyOpera","TajMahal","Niagara","Palakollu","Nrasapuram"]
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         
-            return cities.count
-    
+        return tourististsplaces.count
+        
     }
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell=tableView.dequeueReusableCell(withIdentifier: "city")!
-        cell.textLabel?.text=cities[indexPath.row]
+        let cell=tableView.dequeueReusableCell(withIdentifier: "tour")!
+        cell.textLabel?.text=tourististsplaces[indexPath.row]
         return cell
     }
+    
+
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.

@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		F651D61C221C8FB6000D8644 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F651D61B221C8FB6000D8644 /* AppDelegate.swift */; };
 		F651D61E221C8FB6000D8644 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F651D61D221C8FB6000D8644 /* FirstViewController.swift */; };
-		F651D620221C8FB6000D8644 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F651D61F221C8FB6000D8644 /* SecondViewController.swift */; };
+		F651D620221C8FB6000D8644 /* TouristSitesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F651D61F221C8FB6000D8644 /* TouristSitesViewController.swift */; };
 		F651D623221C8FB6000D8644 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F651D621221C8FB6000D8644 /* Main.storyboard */; };
 		F651D625221C8FB7000D8644 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F651D624221C8FB7000D8644 /* Assets.xcassets */; };
 		F651D628221C8FB7000D8644 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F651D626221C8FB7000D8644 /* LaunchScreen.storyboard */; };
@@ -19,7 +19,7 @@
 		F651D618221C8FB6000D8644 /* TableViews Rock!.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TableViews Rock!.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F651D61B221C8FB6000D8644 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F651D61D221C8FB6000D8644 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		F651D61F221C8FB6000D8644 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		F651D61F221C8FB6000D8644 /* TouristSitesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TouristSitesViewController.swift; sourceTree = "<group>"; };
 		F651D622221C8FB6000D8644 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F651D624221C8FB7000D8644 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F651D627221C8FB7000D8644 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -58,7 +58,7 @@
 			children = (
 				F651D61B221C8FB6000D8644 /* AppDelegate.swift */,
 				F651D61D221C8FB6000D8644 /* FirstViewController.swift */,
-				F651D61F221C8FB6000D8644 /* SecondViewController.swift */,
+				F651D61F221C8FB6000D8644 /* TouristSitesViewController.swift */,
 				F651D621221C8FB6000D8644 /* Main.storyboard */,
 				F651D624221C8FB7000D8644 /* Assets.xcassets */,
 				F651D626221C8FB7000D8644 /* LaunchScreen.storyboard */,
@@ -138,7 +138,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F651D620221C8FB6000D8644 /* SecondViewController.swift in Sources */,
+				F651D620221C8FB6000D8644 /* TouristSitesViewController.swift in Sources */,
 				F651D61C221C8FB6000D8644 /* AppDelegate.swift in Sources */,
 				F651D61E221C8FB6000D8644 /* FirstViewController.swift in Sources */,
 			);
